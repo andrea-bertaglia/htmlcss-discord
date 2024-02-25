@@ -5,8 +5,10 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    color: #000000;
+    color: #FFFFFF;
+    text-decoration: none;
     font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style-type: none;
 }
 
 /* COMMON */
@@ -20,6 +22,13 @@
 
 .bg-black {
     background-color: #000000;
+}
+
+.white-button {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    color: #000000;
+    padding: 12px;
 }
 
 section {
@@ -42,9 +51,11 @@ header {
 .navbar-left,
 .navbar-center,
 .navbar-right {
-    background-color: #daa51f;
-    border: 1px dashed #000000;
     padding: 5px;
+    
+    /* debug */
+    /* background-color: #daa51f; */
+    /* border: 1px dashed #000000; */
 }
 
 .navbar-left, 
@@ -59,6 +70,15 @@ header {
 .navbar-center {
     flex-grow: 1;
     text-align: center;
+    color: #FFFFFF;
+}
+
+.navbar-center > ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 15px;
+    padding: 10px;
 }
 
 /* MAIN */
@@ -69,14 +89,20 @@ nav {
 .container {
     margin-top: 10px;
     width: 80%;
-    max-width: 1100px;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    max-width: 1100px;
+    margin: 0 auto;
+    
     /* debug */
     /* background-color: pink; */
+}
+
+.display-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pink-container {
