@@ -22,6 +22,11 @@
     background-color: #d3d3d3;
 }
 
+.bg-grey-2 {
+    min-height: 1000px;
+    background-color: #d3d3d3;
+}
+
 .bg-black {
     background-color: #000000;
 }
@@ -38,6 +43,16 @@
     border-radius: 20px;
     color: #FFFFFF;
     padding: 12px;
+}
+
+.violet-button {
+    background-color: #728ada;
+    border-radius: 20px;
+    color: #FFFFFF;
+    padding: 12px;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
 }
 
 section {
@@ -125,12 +140,12 @@ nav {
     /* debug */
     /* width: 30%; */
     /* background-color: #ffc0cb; */
-    /* border: 1px dashed #000000; */ */
+    /* border: 1px dashed #000000; */
 }
 
 .pink-container > h2 {
-    font-size: 2rem;
     color: #000000;
+    font-size: 2rem;
 }
 
 .pink-container > div {
@@ -150,20 +165,35 @@ nav {
 }
 
 
-.darkgreen-container {
+
+/* .darkgreen-container {
     width: 100%;
     background-color: #228b22;
     border: 1px dashed #000000;
 
     /* debug */
-    height: 100px;
+    /* height: 100px;
+} */
+
+.slogan > h2 {
+    padding: 20px 50px;
+    color: #000000;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    
 }
+
 
 .banner {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     min-height: 20%;
     padding: 10px 15%;
+}
+
+div > .banner {
+    text-align: center;
+
 }
 
 .violet-box {
@@ -211,7 +241,7 @@ nav {
 
 .lightgreen-container {
     width: 100%;
-    background-color: #7ffdd4;
+    /* background-color: #7ffdd4; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -220,18 +250,18 @@ nav {
     height: 50px;
 }
 
-.footer-logo {
-    background-color: #ffb6c1;
-    border: 1px dashed #000000;
-    padding: 5px;
+/* .footer-logo {
+    /* background-color: #ffb6c1; */
+    /* border: 1px dashed #000000;
+    padding: 5px; 
 }
 
 .footer-button {
-    background-color: #ffb6c1;
-    border: 1px dashed #000000;
-    padding: 5px;
+    /* background-color: #ffb6c1; */
+    /* border: 1px dashed #000000;
+    padding: 5px; 
 
-}
+} */
 
 footer > section {
     border-bottom: 1px solid #FFFFFF;
