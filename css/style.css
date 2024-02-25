@@ -1,0 +1,170 @@
+    /* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* COMMON */
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-grey {
+    background-color: #d3d3d3;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* debug */
+    height: 200px;
+}
+/* HEADER */
+header {
+    height: 80px;
+    background-color: #aed9e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-left,
+.navbar-center,
+.navbar-right {
+    background-color: #daa51f;
+    border: 1px dashed #000000;
+    padding: 5px;
+}
+
+.navbar-left, 
+.navbar-right{
+    width: 25%;
+}
+
+.navbar-right {
+    text-align: end;
+}
+
+.navbar-center {
+    flex-grow: 1;
+    text-align: center;
+}
+
+/* MAIN */
+nav {
+    margin-top: 10px;
+}
+
+.container {
+    margin-top: 10px;
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* debug */
+    /* background-color: pink; */
+}
+
+.pink-container {
+    width: 30%;
+    background-color: #ffc0cb;
+    border: 1px dashed #000000;
+    
+    /* debug */
+    height: 100px;
+}
+
+.blue-container {
+    width: 70%;
+    background-color: #1d90ff;
+    border: 1px dashed #000000;
+
+    /* debug */
+    height: 100px;
+}
+
+.darkgreen-container {
+    width: 100%;
+    background-color: #228b22;
+    border: 1px dashed #000000;
+
+    /* debug */
+    height: 100px;
+}
+
+.banner {
+    background-color: #00008b;
+    height: 20%;
+    padding: 10px 15%;
+}
+
+.violet-box {
+    background-color: #ee82ef;
+    border: 1px dashed #000000;
+    padding: 5px;
+
+    /* debug */
+    height: 150px;
+}
+
+
+/* FOOTER */
+.coral-container {
+    width: 40%;
+    background-color: #f08081;
+    border: 1px dashed #000000;
+
+    /* debug */
+    height: 100px;
+}
+
+.green-container {
+    width: 15%;
+    background-color: #20b3aa;
+    border: 1px dashed #FFFFFF;
+
+    /* debug */
+    height: 100px;
+}
+
+.lightgreen-container {
+    width: 100%;
+    background-color: #7ffdd4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* debug */
+    height: 50px;
+}
+
+.footer-logo {
+    background-color: #ffb6c1;
+    border: 1px dashed #000000;
+    padding: 5px;
+}
+
+.footer-button {
+    background-color: #ffb6c1;
+    border: 1px dashed #000000;
+    padding: 5px;
+
+}
+
+footer > section {
+    border-bottom: 1px solid #FFFFFF;
+}
+
