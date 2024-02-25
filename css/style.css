@@ -6,6 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #000000;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* COMMON */
@@ -32,7 +33,7 @@ section {
 /* HEADER */
 header {
     height: 80px;
-    background-color: #aed9e7;
+    background-color: #255fe9;
     display: flex;
     justify-content: center;
     align-items: center;
