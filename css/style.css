@@ -13,10 +13,12 @@
 
 /* COMMON */
 .bg-white {
+    min-height: 500px;
     background-color: #ffffff;
 }
 
 .bg-grey {
+    min-height: 500px;
     background-color: #d3d3d3;
 }
 
@@ -116,22 +118,37 @@ nav {
 /* MAIN */
 
 .pink-container {
-    width: 30%;
-    background-color: #ffc0cb;
-    border: 1px dashed #000000;
-    
+    line-height: 2.5rem;
+    flex-direction: column;
+    gap: 30px;
+
     /* debug */
-    height: 100px;
+    /* width: 30%; */
+    /* background-color: #ffc0cb; */
+    /* border: 1px dashed #000000; */ */
+}
+
+.pink-container > h2 {
+    font-size: 2rem;
+    color: #000000;
+}
+
+.pink-container > div {
+    color: #000000;
 }
 
 .blue-container {
-    width: 70%;
-    background-color: #1d90ff;
-    border: 1px dashed #000000;
+    line-height: 2.5rem;
+    flex-direction: column;
+    gap: 30px;
 
     /* debug */
-    height: 100px;
+    /* height: 100px;
+    width: 70%;
+    background-color: #1d90ff;
+    border: 1px dashed #000000; */
 }
+
 
 .darkgreen-container {
     width: 100%;
