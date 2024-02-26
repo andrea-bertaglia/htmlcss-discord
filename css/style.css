@@ -223,20 +223,21 @@ div > .banner {
 /* FOOTER */
 .coral-container {
     width: 40%;
-    background-color: #f08081;
-    border: 1px dashed #000000;
-
+    
     /* debug */
-    height: 100px;
+    /* height: 100px;
+    background-color: #f08081;
+    border: 1px dashed #000000; */
 }
 
 .green-container {
     width: 15%;
-    background-color: #20b3aa;
-    border: 1px dashed #FFFFFF;
-
+    line-height: 2rem;;
+    
     /* debug */
-    height: 100px;
+    /* height: 100px; */
+    /* background-color: #20b3aa;
+    border: 1px dashed #FFFFFF; */
 }
 
 .lightgreen-container {
@@ -267,3 +268,6 @@ footer > section {
     border-bottom: 1px solid #FFFFFF;
 }
 
+.footer-top {
+    height: 500px;
+}
